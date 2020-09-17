@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <script src = "main.js"></script>
+        <title>Converter</title>
+    </head>
+
+    <body>
+        <div class="main-div">
+            <h1>Number System Converter</h1>
+            <select id="number-system-initial-select">
+                <option value="binary">Binary</option>
+                <option value="ternary">Ternary</option>
+                <option value="octal">Octal</option>
+                <option value="decimal">Decimal</option>
+                <option value="hex">Hexadecimal</option>
+            </select>
+            <input type = "text" placeholder="Enter a number" id="number-system-value">
+
+            <h1>=></h1>
+
+            <select id="number-system-final-select">
+                <option value="binary">Binary</option>
+                <option value="ternary">Ternary</option>
+                <option value="octal">Octal</option>
+                <option value="decimal">Decimal</option>
+                <option value="hex">Hexadecimal</option>
+            </select>
+            <input type = "text" placeholder="Output" id="number-system-result">
+            
+            <button id = "number-system-button" onclick="convert('number-system')">Convert Now</button>
+    </div>   
+
+    <hr>
+
+    <div class="main-div">
+        <h1>Currency System Converter</h1>
+        <select id="currency-system-initial-select">
+            <option value="rupees">Rupees</option>
+            <option value="dollars">Dollars</option>
+            <option value="pounds">Pounds</option>
+        </select>
+        <input type = "text" placeholder="Enter a number" id="currency-system-value">
+
+        <h1>=></h1>
+
+        <select id="currency-system-final-select">
+            <option value="rupees">Rupees</option>
+            <option value="dollars">Dollars</option>
+            <option value="pounds">Pounds</option>
+        </select>
+        <input type = "text" placeholder="Output" id="currency-system-result">
+        
+        <button id = "currency-system-button" onclick="convert('currency-system')">Convert Now</button>
+    </div>   
+
+    <hr>
+
+    <div class="main-div">
+        <h1>Temperature System Converter</h1>
+        <select id="temperature-system-initial-select">
+            <option value="cel">Celcius</option>
+            <option value="far">Farenheit</option>
+            <option value="kel">Kelvin</option>
+        </select>
+        <input type = "text" placeholder="Enter a number" id="temperature-system-value">
+
+        <h1>=></h1>
+
+        <select id="temperature-system-final-select">
+            <option value="cel">Celcius</option>
+            <option value="far">Farenheit</option>
+            <option value="kel">Kelvin</option>
+        </select>
+        <input type = "text" placeholder="Output" id="temperature-system-result">
+        
+        <button id = "currency-system-button" onclick="convert('temperature-system')">Convert Now</button>
+    </div>  
+    
+    <hr>
+
+    <div class="main-div">
+        <h1>Computer Memory Converter</h1>
+        <select id="computer-memory-system-initial-select">
+            <option value="_B">Byte</option>
+            <option value="kB">Kilobyte</option>
+            <option value="mB">Megabyte</option>
+            <option value="gB">Gigabyte</option>
+            <option value="tB">Terabyte</option>
+            <option value="pB">Petabyte</option>
+            <option value="_b">bits</option>
+            <option value="kb">Kilobits</option>
+            <option value="mb">Megabits</option>
+            <option value="gb">Gigabits</option>
+            <option value="tb">Terabits</option>
+            <option value="pb">Petabits</option>
+        </select>
+        <input type = "text" placeholder="Enter a number" id="computer-memory-system-value">
+
+        <h1>=></h1>
+
+        <select id="computer-memory-system-final-select">
+            <option value="_B">Byte</option>
+            <option value="kB">Kilobyte</option>
+            <option value="mB">Megabyte</option>
+            <option value="gB">Gigabyte</option>
+            <option value="tB">Terabyte</option>
+            <option value="pB">Petabyte</option>
+            <option value="_b">bits</option>
+            <option value="kb">Kilobits</option>
+            <option value="mb">Megabits</option>
+            <option value="gb">Gigabits</option>
+            <option value="tb">Terabits</option>
+            <option value="pb">Petabits</option>
+        </select>
+        <input type = "text" placeholder="Output" id="computer-memory-system-result">
+        
+        <button id = "currency-system-button" onclick="convert('computer-memory-system')">Convert Now</button>
+    </div>
+    </body>
+</html>
